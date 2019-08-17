@@ -183,11 +183,22 @@ body {
     width: 450px;
   }
 }
+
+/* @media screen and (max-width: 640px;) {
+  footer {
+    width: 640px;
+  }
+} */
 @media screen and (max-width: 500px) {
   .header {
     height: 150px;
+    width: 500px;
   }
   .park-div {
     height: 600px;
+    width: 500px;
+  }
+  footer {
+    width: 500px;
   }
 }
