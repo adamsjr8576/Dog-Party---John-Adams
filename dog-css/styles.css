@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ .header {
+   background-color: #75e2e6;
+   height: 80px;
+   border-bottom: 5px solid #048eaa;
+ }
+
+ .header-photo {
+   width: 60px;
+   height: 60px;
+   float: left;
+   margin-left: 20px;
+   margin-top: 10px;
+ }
+
+ .header-title {
+   display: inline;
+   margin-right: 15px;
+   margin-top: 25px;
+   float: right;
+   font-size: 115%;
+ }
+
+ .park-div {
+   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/park.jpg");
+   /* linear-gradiant was used as a work around to darken the image rather than creating a seperate div
+   positioned on top of the image. The syntax usually starts with the direction which was left out
+   because the color points are the same. This is followed by the two color points determined by rgba.
+   the a in this being the opacity of the color. So, the color is black and opacity set to 50% and put
+   with the image to darken it. */
+   background-size: cover;
+   height: 500px;
+ }
+
+ .site-dog-header {
+   text-align: center;
+   margin: 0px;
+   padding: 25px;
+   font-size: 250%;
+   color: #ffffff;
+ }
+
+ .dog-photo {
+   display: block;
+   border-radius: 100%;
+   border: 5px solid #048eaa;
+   height: 175px;
+   width: 175px;
+   margin: 25px auto 25px auto;
+ }
+
+.dog-name-div {
+  width: 45%;
+  height: 200px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+ .dog-name-text {
+  color: #ffffff;
+  font-size: 125%;
+  margin: 2px;;
+ }
+
+ .dog-name-input {
+   width: 100%;
+   height: 20%;
+   font-size: 150%;
+   margin-bottom: 15px;
+   border: 0;
+ }
+
+ .dog-name-button {
+   width: 100%;
+   height: 20%;
+   font-size: 125%;
+   background-color: #75e2e6;
+   border: 0;
+ }
+
+
+ article {
+   display: inline-block;
+   margin: 30px 4% 30px 4%;
+   width: 300px;
+   text-align: center;
+   /* border: 1px solid blue; */
+ }
+
+ .dog-info-text {
+   font-size: 175%;
+ }
+
+ .dog-paragraph{
+   text-align: left;
+   height: 225px;
+ }
+
+.dog-how-paragraph {
+    display: none;
+  }
+
+.dog-what-paragraph{
+  display: none;
+}
+
+.dog-fact-paragraph{
+  display: none;
+}
+
+ .dog-info-button {
+   width: 100%;
+   height: 40px;
+   font-size: 125%;
+   background-color: #048eaa;
+   border: 0;
+   color: #ffffff;
+   margin-top: 20px;
+ }
+
+ footer {
+   background-color: #048eaa;
+   height: 150px;
+   text-align: center;
+   margin-top: 30px;
+   color: #ffffff;
+ }
+
+ .dog-learning {
+   padding: 25px;
+   font-size: 115%
+ }
+
+ .logo-image {
+   padding: 0 10px 0 10px;
+ }
