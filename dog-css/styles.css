@@ -102,18 +102,33 @@ body {
  .dog-paragraph{
    text-align: left;
    height: 225px;
+   overflow: hidden;
+   transform: scale(1);
+   transition: all 2s ease-in-out;
  }
 
 .dog-how-paragraph {
-    display: none;
+    overflow: hidden;
+    height: 0px;
+    transform: scale(.5);
+    transition: all 2s ease-in-out;
+
   }
 
 .dog-what-paragraph{
-  display: none;
+  overflow: hidden;
+  height: 0px;
+  transition: height 2s ease-in-out;
+  transform: scale(.5);
+  transition: all 2s ease-in-out;
 }
 
 .dog-fact-paragraph{
-  display: none;
+  overflow: hidden;
+  height: 0px;
+  transition: height 2s ease-in-out;
+  transform: scale(.5);
+  transition: all 2s ease-in-out;
 }
 
  .dog-info-button {
@@ -172,9 +187,6 @@ body {
     margin-left: 25%;
     width: 450px;
   }
-  .dog-paragraph{
-    height: 150px;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -184,11 +196,6 @@ body {
   }
 }
 
-/* @media screen and (max-width: 640px;) {
-  footer {
-    width: 640px;
-  }
-} */
 @media screen and (max-width: 500px) {
   .header {
     height: 150px;
