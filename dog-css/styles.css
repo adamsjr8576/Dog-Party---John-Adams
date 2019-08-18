@@ -259,4 +259,13 @@ body {
   footer {
     width: 500px;
   }
+  .facts-tooltip{
+    left: 80%;
+  }
+  .what-tooltip{
+    right: 25%;
+  }
+  .how-tooltip{
+    right: 55%;
+  }
 }
