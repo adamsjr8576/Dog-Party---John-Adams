@@ -22,12 +22,63 @@ body {
    margin-top: 10px;
  }
 
+ a:link {
+   color: black;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: black;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #048eaa;
+ }
+
  .header-title {
    display: inline;
    margin-right: 15px;
    margin-top: 25px;
    float: right;
    font-size: 115%;
+ }
+
+.tooltip-off {
+  display: none;
+}
+
+ .facts-tooltip{
+   position: absolute;
+   top: 10%;
+   right: 25px;
+   width: 120px;
+   height: 150px;
+   background-color: rgba(4, 142, 170, .85);
+   color: white;
+   padding: 10px;
+ }
+
+ .what-tooltip{
+   position: absolute;
+   top: 10%;
+   right: 165px;
+   width: 120px;
+   height: 150px;
+   background-color: rgba(4, 142, 170, .85);
+   color: white;
+   padding: 10px;
+ }
+
+ .how-tooltip{
+   position: absolute;
+   top: 10%;
+   right: 300px;
+   width: 120px;
+   height: 150px;
+   background-color: rgba(4, 142, 170, .85);
+   color: white;
+   padding: 10px;
  }
 
  .park-div {
