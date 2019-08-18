@@ -136,6 +136,8 @@ body {
    font-size: 150%;
    margin-bottom: 15px;
    border: 0;
+   cursor: pointer;
+   padding-left: 5%;
  }
 
 
@@ -145,6 +147,7 @@ body {
    font-size: 125%;
    background-color: #75e2e6;
    border: 0;
+   cursor: pointer;
  }
 
  article {
@@ -163,12 +166,14 @@ body {
    text-align: left;
    height: 225px;
    overflow: hidden;
+   word-break: break-all;
    transform: scale(1);
    transition: all 2s ease-in-out;
  }
 
 .dog-how-paragraph {
     overflow: hidden;
+    word-break: break-all;
     height: 0px;
     transform: scale(.5);
     transition: all 2s ease-in-out;
@@ -177,6 +182,7 @@ body {
 
 .dog-what-paragraph{
   overflow: hidden;
+  word-break: break-all;
   height: 0px;
   transition: height 2s ease-in-out;
   transform: scale(.5);
@@ -185,6 +191,7 @@ body {
 
 .dog-fact-paragraph{
   overflow: hidden;
+  word-break: break-all;
   height: 0px;
   transition: height 2s ease-in-out;
   transform: scale(.5);
@@ -199,7 +206,50 @@ body {
    border: 0;
    color: #ffffff;
    margin-top: 20px;
+   cursor: pointer;
  }
+
+.change-paragraph-form {
+  text-align: center;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.dog-paragraph-option {
+  display: block;
+  font-size: 150%;
+  background-color: #048eaa;
+  color: white;
+  cursor: pointer;
+  margin: 10px auto 10px auto;
+  width: 200px;
+  border: 0;
+  height: 40px;
+}
+
+.new-paragraph-text{
+  display: block;
+  margin: 10px auto 10px auto;
+  font-size: 150%;
+  background-color: #75e2e6;
+  border: 4px solid #048eaa;
+  padding: 10px;
+  cursor: pointer;
+  width: 75%;
+}
+
+.paragraph-change-button{
+  display: block;
+  margin: 10px auto 10px auto;
+  font-size: 150%;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #048eaa;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+  border: 0;
+}
 
  footer {
    background-color: #048eaa;
@@ -276,5 +326,8 @@ body {
   }
   .how-tooltip{
     right: 55%;
+  }
+  .change-paragraph-form{
+    width: 500px;
   }
 }
