@@ -1,3 +1,45 @@
+//getting those tooltips
+var factsTooltip = document.getElementById('show-facts-tooltip');
+var factspar = factsTooltip.parentNode;
+
+function addFactTooltip() {
+    factsTooltip.classList.remove('tooltip-off');
+}
+factspar.addEventListener('mouseover', addFactTooltip);
+
+function removeFactTooltip() {
+  factsTooltip.classList.add('tooltip-off')
+}
+factspar.addEventListener('mouseout', removeFactTooltip);
+
+//what tooltip
+var whatTooltip = document.getElementById('show-what-tooltip');
+var whatpar = whatTooltip.parentNode;
+
+function addWhatTooltip() {
+    whatTooltip.classList.remove('tooltip-off');
+}
+whatpar.addEventListener('mouseover', addWhatTooltip);
+
+function removeWhatTooltip() {
+  whatTooltip.classList.add('tooltip-off')
+}
+whatpar.addEventListener('mouseout', removeWhatTooltip);
+
+//how tooltop
+var howTooltip = document.getElementById('show-how-tooltip');
+var howpar = howTooltip.parentNode;
+
+function addHowTooltip() {
+    howTooltip.classList.remove('tooltip-off');
+}
+howpar.addEventListener('mouseover', addHowTooltip);
+
+function removeHowTooltip() {
+  howTooltip.classList.add('tooltip-off')
+}
+howpar.addEventListener('mouseout', removeHowTooltip);
+
 
 // Function that takes the text typed into the input and replaces "Some Dog" with
 // that text when the button is clicked.
