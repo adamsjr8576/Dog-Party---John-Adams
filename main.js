@@ -54,10 +54,10 @@ function addName() {
   if (textEntered.value.length > 0) {
 	   textToChange.innerHTML = textEntered.value;
      textEntered.classList.add('dog-name-input')
-     textEntered.classList.remove('dog-name-notext');
+     textEntered.classList.remove('dog-name-noinput');
   } else {
     textEntered.classList.remove('dog-name-input')
-    textEntered.classList.add('dog-name-notext');
+    textEntered.classList.add('dog-name-noinput');
   }
 }
 
