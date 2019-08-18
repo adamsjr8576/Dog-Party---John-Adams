@@ -45,8 +45,15 @@ howpar.addEventListener('mouseout', removeHowTooltip);
 // that text when the button is clicked.
 function addName() {
   var textToChange = document.getElementById('name-change');
-	var textEntered = document.getElementById('input-text').value;
-	textToChange.innerHTML = textEntered;
+	var textEntered = document.getElementById('input-text');
+  if (textEntered.value.length > 0) {
+	   textToChange.innerHTML = textEntered.value;
+     textEntered.classList.add('dog-name-input')
+     textEntered.classList.remove('dog-name-notext');
+  } else {
+    textEntered.classList.remove('dog-name-input')
+    textEntered.classList.add('dog-name-notext');
+  }
 }
 var buttonClick = document.getElementById('button-click');
 buttonClick.addEventListener('click', addName);
