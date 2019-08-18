@@ -122,6 +122,14 @@ body {
   margin: 2px;;
  }
 
+ .dog-name-notext {
+   width: 100%;
+   height: 20%;
+   font-size: 150%;
+   margin-bottom: 15px;
+   border: 5px solid red;
+ }
+
  .dog-name-input {
    width: 100%;
    height: 20%;
@@ -129,6 +137,7 @@ body {
    margin-bottom: 15px;
    border: 0;
  }
+
 
  .dog-name-button {
    width: 100%;
