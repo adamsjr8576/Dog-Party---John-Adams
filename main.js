@@ -47,8 +47,7 @@ function removeHowTooltip() {
 howpar.addEventListener('mouseout', removeHowTooltip);
 
 
-// Function that takes the text typed into the input and replaces "Some Dog" with
-// that text when the button is clicked.
+// Function that takes text typed into the input and replaces "Some Dog"
 function addName() {
   var textToChange = document.getElementById('name-change');
 	var textEntered = document.getElementById('input-text');
@@ -64,13 +63,6 @@ function addName() {
 
 var buttonClick = document.getElementById('button-click');
 buttonClick.addEventListener('click', addName);
-
-
-// Function that reveals the text for each column and then also hides it again.
-// I wanted the text to be hidden when the page was loaded and then the button
-// to reveal the text and then be able to hide it once again when you were done with
-// it. I felt this was more user friendly. I used the toggle method to switch the class
-// for the paragraphs on and off.
 
 // function for How to Dog paragraph toggle
 var howTextHide = document.getElementById('hide-dog-how');
