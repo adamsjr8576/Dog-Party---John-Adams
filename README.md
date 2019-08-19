@@ -42,7 +42,8 @@
 
   3. Make the site responsive to be used with mobile devices without any provided layouts or formatting techniques - using basic HTML/CSS. With the use of media queries have the site respond to certain screen sizes. Media queries and formatting for mobile is not something we discussed during this week of the program.
 
-  - I was able to use media queries to alter the formatting of the web page to change based of the width of the browser and to be used and functional on mobile devices. open it up on your phone and see!
+  - I was able to use media queries to alter the formatting of the web page to change based of the width of the browser and to be used and functional on mobile devices. open it up on your phone and see! Screen grab:
+  ![screencapture-adamsjr8576-github-io-Dog-Party-John-Adams-2019-08-19-08_31_49](https://user-images.githubusercontent.com/49846853/63274088-68a60000-c25c-11e9-80f4-c4d3ef555268.png)
 
   4. Adding Extensions and further functionality via Javascript.
 
