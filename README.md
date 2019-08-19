@@ -12,7 +12,9 @@
 ## iterations
   1. Build out HTML and CSS using the Turing Styling Guides as reference. Recreate the comp provided to be as visual similar as possible using well structured HTML and CSS.
    - Successfully recreated the visual comp with a high level of accuracy using HTML and CSS. Comp Image:
+   Inline-style:
    ![alt text](https://imgur.com/a/vddOOyh "Provided Visual Comp")
+   Inline-style:
    ![alt text](https://imgur.com/a/q6SjfFv "Screen Grab of my Dog Party Prject")
   2. Add some fuctionality via Javascript. Add an interaction where the user can type their dog's name into the input field and then by clicking the button the text in the input field takes the place of the text `Some Dogs`.
     -
