@@ -17,9 +17,9 @@
    Screen Grab of my Dog Party Site:
    ![My work](https://i.imgur.com/hWZH0Fh.jpg)
 
-  2. Add some functionality via Javascript. Add an interaction where the user can type their dog's name into the input field and then by clicking the button the text in the input field takes the place of the text `Some Dogs`.
+  2. Add some functionality via Javascript. Add an interaction where the user can type their dog's name into the input field and then by clicking the button the text in the input field takes the place of the text Some Dogs.
 
-    * I successfully implemented functionality that fulfilled the requirements of Iteration 2. I also implemented an interaction where if the user selects the submit button with no text in the input the input box becomes highlighted in red and will not change the header text. Once text is put in the input box and the button pushed - the red border disappears and the name is shown in the header. Photos:
+  - I successfully implemented functionality that fulfilled the requirements of Iteration 2. I also implemented an interaction where if the user selects the submit button with no text in the input the input box becomes highlighted in red and will not change the header text. Once text is put in the input box and the button pushed - the red border disappears and the name is shown in the header. Photos:
     ![Red Border](https://i.imgur.com/FTHYwoJ.png)
     ![functionality run](https://i.imgur.com/giOi5Ei.png)
 
@@ -42,11 +42,11 @@
 
   3. Make the site responsive to be used with mobile devices without any provided layouts or formatting techniques - using basic HTML/CSS. With the use of media queries have the site respond to certain screen sizes. Media queries and formatting for mobile is not something we discussed during this week of the program.
 
-    * I was able to use media queries to alter the formatting of the web page to change based of the width of the browser and to be used and functional on mobile devices. open it up on your phone and see!
+  - I was able to use media queries to alter the formatting of the web page to change based of the width of the browser and to be used and functional on mobile devices. open it up on your phone and see!
 
   4. Adding Extensions and further functionality via Javascript.
 
-    1. Adding functionality to each of the buttons in the three dog columns. When the button is clicked it should hide the text and then when clicked again it should unhide the text. Bonus: add an animation.
+   1. Adding functionality to each of the buttons in the three dog columns. When the button is clicked it should hide the text and then when clicked again it should unhide the text. Bonus: add an animation.
       * I was able to successfully make the text in the columns hide and unhide when the button was pushed. I also added a `transform` to the `transition` in CSS to have the text grow and shrink as it is easing in and out.
 
       ```.dog-paragraph{
@@ -67,7 +67,7 @@
        }
        ```
 
-    2. Add a tooltip to each of the elements in the nav bar. When hovering over the link a tooltip should appear giving more info about where the link goes.
+   2. Add a tooltip to each of the elements in the nav bar. When hovering over the link a tooltip should appear giving more info about where the link goes.
 
       * The tooltips where trickier to add as I found it hard to find information via googling on best practices to add a tooltip. It seemed most people did it all in CSS or just in HTML, but I wanted to use JS to create the responsiveness of it. I was able to make a tooltip for each using JS to have them show up when the mouse is hovered over the link.
 
@@ -89,7 +89,7 @@
       howpar.addEventListener('mouseout', removeHowTooltip);
       ```
 
-    3. Add a form containing input, textarea and button to bottom of the page so that it can update the text in each dog column paragraph. The input should be either a dropdown or radio/checkboxes to specify which column's text should be replaced
+   3. Add a form containing input, textarea and button to bottom of the page so that it can update the text in each dog column paragraph. The input should be either a dropdown or radio/checkboxes to specify which column's text should be replaced
 
       * This was a good one and a tough challenge to figure out how the function in JS should be formatted to have the input select which paragraph it wants the text to replace. I ended up using an if/else if/else statement to with the input value being the conditional that determined which paraghraph to replace. This was a really fun one! I also used JS to make the textarea initial text disappear when you select the box and then if you reselect it after typing it will stay there and not disappear. And then, when you hit submit the initial text repopulates the textarea.
       ![Imgur](https://i.imgur.com/HumgRTG.png)
