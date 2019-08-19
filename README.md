@@ -9,7 +9,7 @@
   - My goal within this project was to complete all iterations given to us, some of which went beyond what we were learning in class that week. I accomplished that goal and successfully completed each iteration and ended with a responsive and functioning site that closely resembled the visual comp provided.
   - I wanted to use this project as a way to set myself up for the rest of this module and get into the flow of daily work and time management.
 
-## iterations
+## Iterations
   1. Build out HTML and CSS using the Turing Styling Guides as reference. Recreate the comp provided to be as visual similar as possible using well structured HTML and CSS.
 
    * Successfully recreated the visual comp with a high level of accuracy using HTML and CSS. Comp Image:
