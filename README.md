@@ -90,7 +90,8 @@
       ```
 
     3. Add a form containing input, textarea and button to bottom of the page so that it can update the text in each dog column paragraph. The input should be either a dropdown or radio/checkboxes to specify which column's text should be replaced
-      -This was a good one and a tough challenge to figure out how the function in JS should be formatted to have the input select which paragraph it wants the text to replace. I ended up using an if/else if/else statement to with the input value being the conditional that determined which paraghraph to replace. This was a really fun one! I also used JS to make the textarea initial text disappear when you select the box and then if you reselect it after typing it will stay there and not disappear. And then, when you hit submit the initial text repopulates the textarea.
+    
+      - This was a good one and a tough challenge to figure out how the function in JS should be formatted to have the input select which paragraph it wants the text to replace. I ended up using an if/else if/else statement to with the input value being the conditional that determined which paraghraph to replace. This was a really fun one! I also used JS to make the textarea initial text disappear when you select the box and then if you reselect it after typing it will stay there and not disappear. And then, when you hit submit the initial text repopulates the textarea.
       ![Imgur](https://i.imgur.com/HumgRTG.png)
       ```function changeDogParagraphText() {
         if (paragraphSelect.value.toString() === 'how') {
